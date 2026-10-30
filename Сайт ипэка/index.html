@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИПЭК - Колледж</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <div class="header_container">
+            <a href="#" class="header_logo" data-link="home">
+                <img src="img/logo.png" alt="ИПЭК" class="header_logo_img">
+                <p class="header_logo_text">ИПЭК</p>
+            </a>
+            
+            <nav class="header_nav">
+                <a href="#" class="header_link" data-link="home">Главная</a>
+                <a href="#" class="header_link" data-link="about">О колледже</a>
+                <a href="#" class="header_link" data-link="admission">Поступающим</a>
+            </nav>
+
+            <!-- Бургер для мобильных -->
+            <button class="header_burger" id="burger-btn" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="mobile_menu" id="mobile-menu">
+            <a href="#" class="mobile_menu_link" data-link="home">Главная</a>
+            <a href="#" class="mobile_menu_link" data-link="about">О колледже</a>
+            <a href="#" class="mobile_menu_link" data-link="admission">Поступающим</a>
+        </div>
+    </header>
+
+    <!-- СЮДА ЗАГРУЖАЕТСЯ КОНТЕНТ СТРАНИЦ -->
+    <main class="main" id="app-content">
+        <div class="container" style="text-align: center; color: #64748B; padding: 50px 0;">
+            Загрузка...
+        </div>
+    </main>
+
+    <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="container footer_top">
+            <div class="footer_brand">
+                <div class="footer_logo">
+                    <img src="img/logo.png" alt="ИПЭК" class="header_logo_img">
+                    <span class="header_logo_text">ИПЭК</span>
+                </div>
+                <p class="footer_desc">Ижевский промышленно-экономический колледж. Среднее профессиональное образование и уверенный старт в карьере</p>
+            </div>
+            
+            <div class="footer_nav">
+                <h4 class="footer_title">Карта сайта</h4>
+                <div class="footer_links_grid">
+                    <a href="#" class="footer_link" data-link="home">Главная</a>
+                    <a href="#" class="footer_link" data-link="about">О колледже</a>
+                    <a href="#" class="footer_link" data-link="admission">Поступающим</a>
+                </div>
+            </div>
+            
+            <div class="footer_social">
+                <h4 class="footer_title">Социальные сети</h4>
+                <a href="#" class="footer_social_link">
+                    <img src="img/vk-icon.png" alt="ВКонтакте" class="footer_social_icon">
+                    ВКонтакте
+                </a>
+                <a href="#" class="footer_social_link">
+                    <img src="img/tg-icon.png" alt="Telegram" class="footer_social_icon">
+                    Telegram
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer_bottom">
+            <div class="container">
+                <p class="footer_copy">©2026 ИПЭК. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+    <!-- ПОДКЛЮЧЕНИЕ СКРИПТА -->
+    <script src="js/router.js"></script>
+</body>
+</html>
